@@ -3,7 +3,7 @@ from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse
 import pandas as pd
 from pydantic import BaseModel
-from src.pipeline.prediction_pipeline import CustomData, PredictPipeline
+from src.pipeline.prediction_pipeline import CustomData, predictpipeline
 
 app = FastAPI()
 
